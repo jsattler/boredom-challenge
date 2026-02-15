@@ -7,7 +7,7 @@ import svelte from "@astrojs/svelte";
 // https://astro.build/config
 export default defineConfig({
   site: "https://jsattler.github.io",
-  base: "boredom-trainer",
+  base: "boredom-challenge",
 
   vite: {
     plugins: [tailwindcss()],
@@ -15,3 +15,4 @@ export default defineConfig({
 
   integrations: [svelte()],
 });
+
